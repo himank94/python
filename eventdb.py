@@ -27,7 +27,7 @@ print("press 2 to get all event")
 print("press 3 to delete event ")
 print("press 4 to update event ")
 print("press 5 to add student in event")
-print("press 6 to get all student")
+print("press 6 to get all student")    
 print("press 7 to delete student")
 print("press 8 to update student")
 
