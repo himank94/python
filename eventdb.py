@@ -53,7 +53,7 @@ elif(select==3):
 
 # to update the event
 elif(select==4):
-    updatevent = "update eventdata set eventname = 'NIGHT PARTY' , eventdate = '19.11.24' , venue = 'CHANAKYA AUDITORIUM' where eventid = '1'"
+    updatevent = "update eventdata set eventname = 'Singing Competition' , eventdate = '22/12/24' , venue = 'AUDI 2' where eventid = '2'"
     mycursor.execute(updatevent)
     connection.commit()
         
@@ -82,7 +82,7 @@ elif(select==7):
 
 # to update the student data
 elif(select==8):
-    updatestudata  = "update studentdata set studyear = '2' where studentid = '1'"
+    updatestudata  = "update studentdata set studmobile = '8273648467' where studentid = '2'"
     mycursor.execute(updatestudata)
     connection.commit()
     
