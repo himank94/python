@@ -53,7 +53,7 @@ elif(select==3):
 
 # to update the event
 elif(select==4):
-    updatevent = "update eventdata set eventname = 'Singing Competition' , eventdate = '22/12/24' , venue = 'AUDI 2' where eventid = '2'"
+    updatevent = "update eventdata set eventname = 'DANCING Competition' , eventdate = '22/12/24' , venue = 'AUDI 2' where eventid = '2'"
     mycursor.execute(updatevent)
     connection.commit()
         
